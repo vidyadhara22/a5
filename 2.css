@@ -1,0 +1,113 @@
+body {
+    background-color: yellow;
+}
+.para{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    }
+
+.flex-item1 {
+    margin: 10px;
+    width: 100px;
+    height: 100px;
+    background-color: green;
+   
+    transition: width 2s;
+}
+
+.flex-item1:hover {
+    width: 600px;
+    } 
+
+.flex-item2 {
+    margin: 10px;
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    transition: width 2s,height 2s;
+}
+
+.flex-item2:hover {
+    width: 300px;
+    height: 300px;
+    } 
+
+    .flex-item3 {
+        margin: 10px;
+        width: 100px;
+        height: 100px;
+        background-color: green;
+       
+        transition: width 2s;
+    }
+    
+    .flex-item3:hover {
+        width: 600px;
+        } 
+
+
+        .flex-item4 {
+            margin: 10px;
+            width: 100px;
+            height: 100px;
+            background-color: green;
+           
+            transition: width 2s;
+        }
+        
+        .flex-item4:hover {
+            width: 600px;
+            }     
+            
+            
+        
+            .flex-item5 {
+                margin: 10px;
+                width: 100px;
+                height: 100px;
+                background-color: green;
+               
+                transition: width 2s;
+            }
+            
+            .flex-item5:hover {
+                width: 600px;
+                }    
+                
+    
+                .flex-item6 {
+                    margin: 10px;
+                    width: 100px;
+                    height: 100px;
+                    background-color: green;
+                   
+                    transition: width 2s;
+                }
+                
+                .flex-item6:hover {
+                    width: 600px;
+                    }   
+                    
+                    
+      
+                    .flex-item7 {
+                        margin: 10px;
+                        width: 100px;
+                        height: 100px;
+                        background-color: green;
+                       
+                        transition: width 2s;
+                    }
+                    
+                    .flex-item7:hover {
+                        width: 600px;
+                        }               

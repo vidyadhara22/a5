@@ -1,0 +1,188 @@
+.flex-container {
+    padding: 2rem;
+    justify-content: space-evenly;
+    display: flex;
+    flex-direction: column;
+}
+
+.para {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.flex-container1 {
+    display: flex;
+    flex-direction: row;
+}
+
+.flex-container2 {
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+}
+
+.flex-item1 {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(91, 163, 91);
+    animation-name: vbn1;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    margin-right: 5rem;
+
+}
+
+@keyframes vbn1 {
+    from {
+        transform: rotateZ(-20deg);
+    }
+
+    to {
+        transform: rotateZ(20deg);
+    }
+}
+
+.flex-item2 {
+    width: 100px;
+    height: 100px;
+    background-color: gray;
+    animation-name: vbn2;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    margin-right: 5rem;
+}
+
+@keyframes vbn2 {
+    from {
+        transform: rotateZ(-20deg);
+    }
+
+    to {
+        transform: rotateZ(20deg);
+    }
+}
+
+
+
+.flex-item3 {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(91, 163, 91);
+    animation-name: vbn3;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    margin-right: 5rem;
+
+}
+
+@keyframes vbn3 {
+    from {
+        transform: rotateZ(0);
+    }
+
+    to {
+        transform: rotateZ(360deg);
+    }
+}
+
+.flex-item4 {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(91, 163, 91);
+    animation-name: vbn;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    margin-right: 5rem;
+
+}
+
+@keyframes vbn {
+    from {
+        transform: rotateZ(-20deg);
+    }
+
+    to {
+        transform: rotateZ(20deg);
+    }
+}
+
+.flex-item5 {
+    width: 100px;
+    height: 100px;
+    background-color: brown;
+    animation-name: vbn;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    margin-right: 5rem;
+
+}
+
+@keyframes vbn {
+    from {
+        transform: skewY(-90deg)
+    }
+
+    to {
+        transform: skewY(90deg)
+    }
+}
+
+.flex-item6 {
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    animation-name: vbn;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+
+}
+
+@keyframes vbn {
+    from {
+        transform: rotateZ(0);
+    }
+
+    to {
+        transform: rotateZ(90deg);
+    }
+}
+
+a {
+    color: red;
+}
+
+
+
+
+.flex-container1 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.flexItems {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 3rem;
+}
+
+.flexI {
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+}
+
+.paraNumber {
+    margin-right: 2rem;
+    position: relative;
+    bottom: -75px;
+}
